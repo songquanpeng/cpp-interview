@@ -34,5 +34,21 @@ void foo(const int i) {
 
 int main() {
     cout << "X: " << X << "\nZ: " << Z;
+    // const 与指针
+    int i = 0;
+    const int j = 0;
+    const int * p1 = &i;
+    int const * p2 = &i;
+    // const 指针和 const 变量一样必须初始化
+    // error: uninitialized const 'p3'
+    // int * const p3;
+    const int * const p4 = &i;
+    // 不能通过  const 指针修改所指对象的值，即使其非 const
+    // error: assignment of read-only location '*(const int*)p4'
+    // *p4 = 1;
+    // 非 const 指针不能指向 const 对象
+    // error: invalid conversion from 'const int*' to 'int*'
+    // int * p5 = &j;
     return 0;
 }
+
