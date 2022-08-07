@@ -4,3 +4,4 @@ project(learn_cpp)
 set(CMAKE_CXX_STANDARD 11)
 
 add_executable(select socket/select.cpp)
+add_executable(poll socket/poll.cpp)

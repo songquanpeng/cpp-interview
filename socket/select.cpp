@@ -19,7 +19,7 @@ int main() {
         FD_ZERO(&read_fds);
         FD_SET(0, &read_fds);
 
-        int n = select(1, &read_fds, NULL, NULL, &tv);
+        int n = select(1, &read_fds, nullptr, nullptr, &tv);
         /* Don't rely on the value of tv now! */
         // Looks like tv_sec is set to remain seconds
         if (n == -1) {
