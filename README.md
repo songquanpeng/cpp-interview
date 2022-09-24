@@ -3,22 +3,45 @@
 
 ## 代码实现
 ### 经典算法
-+ [ ] 基于比较的排序算法
-    + [ ] 冒泡排序
-    + [ ] 选择排序
-    + [ ] 插入排序
-    + [ ] 希尔排序
-    + [ ] 归并排序
-    + [ ] 快速排序
-    + [ ] 堆排序
-+ [ ] KMP 字符串匹配算法
++ [ ] 排序算法
+  + [x] [冒泡排序](./algorithm/bubble_sort.cpp)
+  + [x] [选择排序](./algorithm/selection_sort.cpp)
+  + [x] [插入排序](./algorithm/insertion_sort.cpp)
+  + [x] [希尔排序](./algorithm/shell_sort.cpp)
+  + [ ] 归并排序
+  + [ ] 快速排序
+  + [ ] 堆排序
+  + [ ] 计数排序
+  + [ ] 桶排序
+  + [ ] 基数排序
++ [ ] 字符串算法
+  + [ ] KMP 字符串匹配算法
++ [ ] 图算法
+  + [ ] 基本遍历
+    + [ ] 深度优先搜索
+    + [ ] 广度优先搜索
+    + [ ] A* 搜索算法
+  + [ ] 最短路径算法
+    + [ ] Dijkstra 算法
+    + [ ] Bellman-Ford 算法
+    + [ ] Floyd-Warshall 算法
+  + [ ] 最小生成树
+    + [ ] Prim 算法
+    + [ ] Kruskal 算法
+  + [ ] 图匹配
+    + [ ] 匈牙利算法
 
 ### 数据结构
-+ [ ] string
-+ [ ] vector
-+ [ ] iterator
-+ [ ] unordered_map
-+ [ ] map
++ [ ] STL
+  + [ ] string
+  + [ ] vector
+  + [ ] iterator
+  + [ ] unordered_map
+  + [ ] map
++ [ ] 并查集
++ [ ] 堆
++ [ ] 红黑树
++ [ ] B 树
 
 ### 智能指针
 + [ ] unique_ptr
@@ -37,12 +60,12 @@
 ## 阅读资料
 ### 经典书籍
 + [ ] 《C++ Primer》
-+ [ ] 《Effective C++ 》
-+ [ ] 《More Effective C++ 》
++ [ ] 《Effective C++》
++ [ ] 《More Effective C++》
 + [ ] 《Effective STL》
 + [ ] 《Effective Modern C++》
 + [ ] 《C++ 语言的设计与演化》
-+ [ ] 《深度探索 C++对象模型》
++ [ ] 《深度探索 C++ 对象模型》
 + [ ] 《STL 源码剖析》
 + [ ] 《C++ 并发编程实战》
 + [ ] 《C++ 沉思录》
@@ -53,4 +76,8 @@
 
 ### 在线教程
 + [ ] [现代 C++ 教程：高速上手 C++ 11/14/17/20](https://changkun.de/modern-cpp/)
-+ [ ] [OI Wiki C++ 语言基础](https://oi-wiki.org/lang/)
++ [ ] [OI Wiki](https://oi-wiki.org)
+
+## 参考
++ [C++ 实现十大排序算法](https://www.cnblogs.com/BobHuang/p/11263183.html)
++ [图算法领域 10 大经典算法](https://www.cnblogs.com/v-july-v/archive/2011/02/14/1983678.html)
