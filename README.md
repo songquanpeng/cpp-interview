@@ -54,11 +54,13 @@
 + [x] [epoll](./socket/epoll.cpp)
 
 ### 并发编程
-+ [ ] 互斥锁
++ [x] [互斥锁](./concurrent/mutex.h)
 + [ ] 条件变量
 
 ### 设计模式
 + [ ] 单例
+  + [x] [懒汉版](./design_pattern/lazy_singleton.cpp)
+  + [ ] 饿汉版
 
 ## 阅读资料
 ### 经典书籍
@@ -84,3 +86,4 @@
 ## 参考
 + [C++ 实现十大排序算法](https://www.cnblogs.com/BobHuang/p/11263183.html)
 + [图算法领域 10 大经典算法](https://www.cnblogs.com/v-july-v/archive/2011/02/14/1983678.html)
++ [C++ 单例模式](https://zhuanlan.zhihu.com/p/37469260)
