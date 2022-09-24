@@ -8,7 +8,7 @@
   + [x] [选择排序](./algorithm/selection_sort.cpp)
   + [x] [插入排序](./algorithm/insertion_sort.cpp)
   + [x] [希尔排序](./algorithm/shell_sort.cpp)
-  + [ ] 归并排序
+  + [x] [归并排序](./algorithm/merge_sort.cpp)
   + [ ] 快速排序
   + [ ] 堆排序
   + [ ] 计数排序
