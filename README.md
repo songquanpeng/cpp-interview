@@ -33,7 +33,7 @@
 
 ### 数据结构
 + [ ] STL
-  + [ ] string
+  + [x] [string](./stl/string.cpp)
   + [ ] vector
   + [ ] iterator
   + [ ] unordered_map
@@ -56,6 +56,9 @@
 ### 并发编程
 + [ ] 互斥锁
 + [ ] 条件变量
+
+### 设计模式
++ [ ] 单例
 
 ## 阅读资料
 ### 经典书籍
