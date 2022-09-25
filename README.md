@@ -9,7 +9,7 @@
   + [x] [插入排序](./algorithm/insertion_sort.cpp)
   + [x] [希尔排序](./algorithm/shell_sort.cpp)
   + [x] [归并排序](./algorithm/merge_sort.cpp)
-  + [ ] 快速排序
+  + [x] [快速排序](./algorithm/quick_sort.cpp)
   + [ ] 堆排序
   + [ ] 计数排序
   + [ ] 桶排序
