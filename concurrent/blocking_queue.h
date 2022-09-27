@@ -30,10 +30,10 @@ public:
         queue.pop();
     }
 
-    bool popWithTimeout(T &data, int timeout) {
+    bool pop(T &data, int timeout_ms) {
         std::unique_lock<std::mutex> guard(mutex);
         while (queue.empty()) {
-            cond.template wait_for(guard, std::chrono::microseconds(timeout));
+            cond.wait_for(guard, std::chrono::milliseconds(timeout_ms));
             return false;
         }
         data = queue.front();

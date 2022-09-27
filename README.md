@@ -58,10 +58,10 @@
 
 ### 并发编程
 + [x] [互斥锁](./concurrent/mutex.h)
-+ [ ] 条件变量
-+ [ ] 阻塞队列
++ [x] [条件变量](./concurrent/condition_variable.h)
++ [x] 阻塞队列
   + [x] [标准库版本](./concurrent/blocking_queue.h)
-  + [ ] POSIX 版本
+  + [x] [POSIX 版本（fixed max size）](./concurrent/posix_blocking_queue.h)
 + [ ] 线程池
   + [ ] 标准库版本
   + [ ] POSIX 版本

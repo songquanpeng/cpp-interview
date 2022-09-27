@@ -11,7 +11,8 @@
 
 class Mutex {
 public:
-    Mutex() {
+    Mutex() : mutex_() {
+        // the second parameter specify the type of mutex
         if (pthread_mutex_init(&mutex_, nullptr) != 0) {
             throw std::exception();
         }
@@ -25,6 +26,10 @@ public:
         return pthread_mutex_lock(&mutex_) == 0;
     }
 
+    bool try_lock() {
+        return pthread_mutex_trylock(&mutex_) == 0;
+    }
+
     bool unlock() {
         return pthread_mutex_unlock(&mutex_) == 0;
     }
@@ -34,7 +39,7 @@ public:
     }
 
 private:
-    pthread_mutex_t mutex_{};
+    pthread_mutex_t mutex_;
 };
 
 
@@ -49,7 +54,7 @@ public:
     }
 
 private:
-    Mutex &mutex_;
+    Mutex &mutex_;  // reference type data member
 };
 
 class Lock {
