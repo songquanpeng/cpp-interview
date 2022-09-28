@@ -36,14 +36,13 @@
 
 ### 数据结构
 + [ ] STL
-  + [x] [string](./stl/string.cpp)
+  + [x] [string](./stl/string_test.cpp)
   + [ ] vector
   + [ ] iterator
-  + [ ] unordered_map
-  + [ ] map
+  + [ ] unordered_map（哈希表）
+  + [ ] map（红黑树）
 + [ ] 并查集
 + [ ] 堆
-+ [ ] 红黑树
 + [ ] B 树
 
 ### 智能指针
