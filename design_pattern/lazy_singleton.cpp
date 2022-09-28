@@ -15,7 +15,7 @@ public:
 public:
     // if return reference here, we won't be able to assign it to a variable
     static Singleton *getInstance() {
-        static Singleton instance;
+        static Singleton instance;  // will be destruct automatically
         return &instance;
     }
 };
@@ -28,7 +28,6 @@ private:
 
     static Singleton2 *instance;
 
-private:
     class Deleter {
     public:
         ~Deleter() {
@@ -38,6 +37,7 @@ private:
             }
         }
     };
+
     static Deleter deleter;
 
 public:
@@ -56,6 +56,7 @@ public:
     }
 };
 
+// You can initialize it, but cannot use it directly.
 Singleton2 *Singleton2::instance = nullptr;
 
 int main() {

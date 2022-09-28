@@ -67,9 +67,9 @@
   + [ ] POSIX 版本
 
 ### 设计模式
-+ [ ] 单例
++ [x] 单例
   + [x] [懒汉版](./design_pattern/lazy_singleton.cpp)
-  + [ ] 饿汉版
+  + [x] [饿汉版](./design_pattern/eager_singleton.cpp)
 
 ### 其他
 + [ ] 内存池
