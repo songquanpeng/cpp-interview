@@ -13,7 +13,7 @@ public:
     Singleton &operator=(const Singleton &) = delete;  // disable copy assignment
 
 public:
-    // if return reference here, we won't be able to assign it to a variable
+    // we also can return reference here
     static Singleton *getInstance() {
         static Singleton instance;  // will be destruct automatically
         return &instance;
